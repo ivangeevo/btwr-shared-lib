@@ -3,32 +3,32 @@
   <groupId>org.ivangeevo</groupId>
   <artifactId>btwr-shared-lib</artifactId>
   <versioning>
-    <lastUpdated>20241122184232</lastUpdated>
+    <lastUpdated>20241122194135</lastUpdated>
     <snapshot>
-      <timestamp>20241122.184232</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20241122.194135</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0-20241122.184232-1</value>
-        <updated>20241122184232</updated>
+        <value>1.0-20241122.194135-2</value>
+        <updated>20241122194135</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20241122.184232-1</value>
-        <updated>20241122184232</updated>
+        <value>1.0-20241122.194135-2</value>
+        <updated>20241122194135</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.0-20241122.184232-1</value>
-        <updated>20241122184232</updated>
+        <value>1.0-20241122.194135-2</value>
+        <updated>20241122194135</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20241122.184232-1</value>
-        <updated>20241122184232</updated>
+        <value>1.0-20241122.194135-2</value>
+        <updated>20241122194135</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
