@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.ivangeevo</groupId>
+  <artifactId>btwr-shared-lib</artifactId>
+  <versioning>
+    <lastUpdated>20241128230333</lastUpdated>
+    <snapshot>
+      <timestamp>20241128.230333</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.3-20241128.230333-1</value>
+        <updated>20241128230333</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.3-20241128.230333-1</value>
+        <updated>20241128230333</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.3-20241128.230333-1</value>
+        <updated>20241128230333</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.3-20241128.230333-1</value>
+        <updated>20241128230333</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.3-SNAPSHOT</version>
+</metadata>

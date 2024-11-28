@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ivangeevo</groupId>
+  <artifactId>btwr-shared-lib</artifactId>
+  <versioning>
+    <latest>0.3-SNAPSHOT</latest>
+    <versions>
+      <version>0.2-SNAPSHOT</version>
+      <version>0.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20241128230334</lastUpdated>
+  </versioning>
+</metadata>
