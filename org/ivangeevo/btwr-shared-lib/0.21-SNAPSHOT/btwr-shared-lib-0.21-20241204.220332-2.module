@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ivangeevo",
+    "module": "btwr-shared-lib",
+    "version": "0.21-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "btwr-shared-lib-0.21-SNAPSHOT.jar",
+          "url": "btwr-shared-lib-0.21-SNAPSHOT.jar",
+          "size": 40134,
+          "sha512": "a3b6e51cfce8a3885381166aae14ca12853344f4b54d023076a5e48d0f1f20095ae24888afa6986af4c65175624da3f154562395741b334b3d4706aa38c47322",
+          "sha256": "309b7eac34f1ed4bd91a7fd1854129d15e9d4af7319968bc1701c30253509872",
+          "sha1": "91fd23945abb114018477c440c430e8bd03db529",
+          "md5": "1c59e81feb374ef4892a3d33c14c78ea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.110.0+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "btwr-shared-lib-0.21-SNAPSHOT.jar",
+          "url": "btwr-shared-lib-0.21-SNAPSHOT.jar",
+          "size": 40134,
+          "sha512": "a3b6e51cfce8a3885381166aae14ca12853344f4b54d023076a5e48d0f1f20095ae24888afa6986af4c65175624da3f154562395741b334b3d4706aa38c47322",
+          "sha256": "309b7eac34f1ed4bd91a7fd1854129d15e9d4af7319968bc1701c30253509872",
+          "sha1": "91fd23945abb114018477c440c430e8bd03db529",
+          "md5": "1c59e81feb374ef4892a3d33c14c78ea"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "btwr-shared-lib-0.21-SNAPSHOT-sources.jar",
+          "url": "btwr-shared-lib-0.21-SNAPSHOT-sources.jar",
+          "size": 29519,
+          "sha512": "ad68978ff3d0a84153f36e6ad61da1988271785e9c02f0cf73327e6f7e5e59f38c34ca607146cd4aaa74f97ab97c7fd1cbb92174b20ab5e15b624a2839972783",
+          "sha256": "5ebb1eb697fdaec2ea2ca52f5d07b3d7f8af2c985f1e9496846570b8de28c492",
+          "sha1": "f8bad928ba8266f17627a1dedd9fd98325cd5278",
+          "md5": "aa80a4d0a5b0066e982dfca775092f3b"
+        }
+      ]
+    }
+  ]
+}
