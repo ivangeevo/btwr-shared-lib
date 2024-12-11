@@ -3,32 +3,32 @@
   <groupId>org.ivangeevo</groupId>
   <artifactId>btwr-shared-lib</artifactId>
   <versioning>
-    <lastUpdated>20241207110154</lastUpdated>
+    <lastUpdated>20241211163157</lastUpdated>
     <snapshot>
-      <timestamp>20241207.110154</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20241211.163157</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.29-20241207.110154-1</value>
-        <updated>20241207110154</updated>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.29-20241211.163157-2</value>
+        <updated>20241211163157</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.29-20241207.110154-1</value>
-        <updated>20241207110154</updated>
+        <extension>pom</extension>
+        <value>0.29-20241211.163157-2</value>
+        <updated>20241211163157</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.29-20241207.110154-1</value>
-        <updated>20241207110154</updated>
+        <value>0.29-20241211.163157-2</value>
+        <updated>20241211163157</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.29-20241207.110154-1</value>
-        <updated>20241207110154</updated>
+        <value>0.29-20241211.163157-2</value>
+        <updated>20241211163157</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
