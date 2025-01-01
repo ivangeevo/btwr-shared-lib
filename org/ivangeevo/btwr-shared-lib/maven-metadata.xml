@@ -3,7 +3,7 @@
   <groupId>org.ivangeevo</groupId>
   <artifactId>btwr-shared-lib</artifactId>
   <versioning>
-    <latest>0.38-SNAPSHOT</latest>
+    <latest>0.39-SNAPSHOT</latest>
     <versions>
       <version>0.2-SNAPSHOT</version>
       <version>0.3-SNAPSHOT</version>
@@ -42,7 +42,8 @@
       <version>0.36-SNAPSHOT</version>
       <version>0.37-SNAPSHOT</version>
       <version>0.38-SNAPSHOT</version>
+      <version>0.39-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20241230235237</lastUpdated>
+    <lastUpdated>20250101190824</lastUpdated>
   </versioning>
 </metadata>
