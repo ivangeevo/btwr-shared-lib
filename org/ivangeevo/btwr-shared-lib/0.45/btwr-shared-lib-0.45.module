@@ -27,11 +27,11 @@
         {
           "name": "btwr-shared-lib-0.45.jar",
           "url": "btwr-shared-lib-0.45.jar",
-          "size": 67086,
-          "sha512": "2ca8365d1c374f2c2d18ec69cb30badcb2e7933658af11790f9adc3e3ff698a91971431f52c89b6d1ad2edd254b9524f17d54cb2bf7382ee205503c07642f83e",
-          "sha256": "17cc95aa350e7c43d292a8e3dc256df0223f5bdd0c918c82cb504e8d5f6d535a",
-          "sha1": "06ac63eb980d30291415e7df465025e89aba2c37",
-          "md5": "ded277d9f55b20f29d79e3fbebd73bda"
+          "size": 67497,
+          "sha512": "cc03fde4582b52ab625556e3e2cb7eb647b05a9daa31adbf3b63190656e8e77a44488983c8529f16cca6f4cd188fcebae97a7b5f86970e41ddb0bac3e65508fc",
+          "sha256": "f84bcf6e2687e847da423a82305791febceceafa0bd5d80abd9994f76fd4b537",
+          "sha1": "a1109a56adda394fcb1f7ef758b79c0f57ad15dc",
+          "md5": "9df71391f38463e1e322b22a37ec44ef"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "btwr-shared-lib-0.45.jar",
           "url": "btwr-shared-lib-0.45.jar",
-          "size": 67086,
-          "sha512": "2ca8365d1c374f2c2d18ec69cb30badcb2e7933658af11790f9adc3e3ff698a91971431f52c89b6d1ad2edd254b9524f17d54cb2bf7382ee205503c07642f83e",
-          "sha256": "17cc95aa350e7c43d292a8e3dc256df0223f5bdd0c918c82cb504e8d5f6d535a",
-          "sha1": "06ac63eb980d30291415e7df465025e89aba2c37",
-          "md5": "ded277d9f55b20f29d79e3fbebd73bda"
+          "size": 67497,
+          "sha512": "cc03fde4582b52ab625556e3e2cb7eb647b05a9daa31adbf3b63190656e8e77a44488983c8529f16cca6f4cd188fcebae97a7b5f86970e41ddb0bac3e65508fc",
+          "sha256": "f84bcf6e2687e847da423a82305791febceceafa0bd5d80abd9994f76fd4b537",
+          "sha1": "a1109a56adda394fcb1f7ef758b79c0f57ad15dc",
+          "md5": "9df71391f38463e1e322b22a37ec44ef"
         }
       ]
     },
@@ -84,11 +84,11 @@
         {
           "name": "btwr-shared-lib-0.45-sources.jar",
           "url": "btwr-shared-lib-0.45-sources.jar",
-          "size": 48032,
-          "sha512": "24670e350aecd7e1a754eec2ebb7b7b8b74b448fd27ce261805bbd0ca3249d7230d2f52bccccb2b70df23c0b10946a86164e3a3e9e5067e9ef08078fd239547d",
-          "sha256": "a601734351fc6bf209b3f1947be520dfcbda7671015485258f8b9f1dc402c57c",
-          "sha1": "dd091a417a2610b07858a4e47f9c6f789cc06796",
-          "md5": "b091175b3a396b784dcd215daee59aa3"
+          "size": 48435,
+          "sha512": "4200eee84319d98a9920ab82b5d2916a80ebe32f0ce61fa89ce6e94e88c66edf16336c43d3a195786497a061343e53cc0c1f43f6c9dd4eb2e9673466cba8622a",
+          "sha256": "055d2b5514e7205c0c3b9919de9a1046c20c3ef257c33e4af12d824ca57ee0d0",
+          "sha1": "4eeb9cc5f901f91ddaebd67652cbeaeb0e1c2261",
+          "md5": "1711b5e4e52d915e6d8c28c7273b82e0"
         }
       ]
     }
