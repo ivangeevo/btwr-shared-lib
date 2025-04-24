@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ivangeevo",
+    "module": "btwr-shared-lib",
+    "version": "0.51",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "btwr-shared-lib-0.51.jar",
+          "url": "btwr-shared-lib-0.51.jar",
+          "size": 94619,
+          "sha512": "753f24526fdf930758eb30535c27bbff242151881ee7b6a0274098769ad404a5393e7ff991adecaf484d956460c75b441153d0d4f2acc215c6e813b154a9d4a6",
+          "sha256": "a79b6bce20c8dd44272ec53a975e504b2b758e2ee23d06616ee8095b26cd0f10",
+          "sha1": "5d94be2aadc732bfc3076ccf7186ee97d199dda9",
+          "md5": "bf55ecef9006b576fd0c900dd659567f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.115.3+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "btwr-shared-lib-0.51.jar",
+          "url": "btwr-shared-lib-0.51.jar",
+          "size": 94619,
+          "sha512": "753f24526fdf930758eb30535c27bbff242151881ee7b6a0274098769ad404a5393e7ff991adecaf484d956460c75b441153d0d4f2acc215c6e813b154a9d4a6",
+          "sha256": "a79b6bce20c8dd44272ec53a975e504b2b758e2ee23d06616ee8095b26cd0f10",
+          "sha1": "5d94be2aadc732bfc3076ccf7186ee97d199dda9",
+          "md5": "bf55ecef9006b576fd0c900dd659567f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "btwr-shared-lib-0.51-sources.jar",
+          "url": "btwr-shared-lib-0.51-sources.jar",
+          "size": 63256,
+          "sha512": "c4400ebbf7d7ed66063156ed667cafe6ac06c2574d354a3def89d18429750d5dff5b6f7432909f28074f592dc369c0ee684ba8700d403fbf74f592c4243776a3",
+          "sha256": "88efbddfe839094b15775f277901338496953fbd155a4bd48b075a7d429ddf89",
+          "sha1": "a3e66432e2afd3e2f6666c9b087a94cdfeafe510",
+          "md5": "42bbe0ca7192c8a8edb63b9916d983e5"
+        }
+      ]
+    }
+  ]
+}
