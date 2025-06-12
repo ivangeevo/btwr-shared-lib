@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ivangeevo",
+    "module": "btwr-shared-lib",
+    "version": "0.55",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "btwr-shared-lib-0.55.jar",
+          "url": "btwr-shared-lib-0.55.jar",
+          "size": 95079,
+          "sha512": "0e673708149ead111eb223c0030140c4dce4103b99741de7b3ed6e5054e4f49917d7607bbc3e4b279c6b31f769be772744bb2f17a429292eca976c355c030bb8",
+          "sha256": "f438b19a9723ed3b2199ac5ae342854eff988a99c7d42811ee10e7978b562841",
+          "sha1": "8488387c2d0021f09b98cfbeba31352e4622f30f",
+          "md5": "e95d77148ff418449df2f44c095185c7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "btwr-shared-lib-0.55.jar",
+          "url": "btwr-shared-lib-0.55.jar",
+          "size": 95079,
+          "sha512": "0e673708149ead111eb223c0030140c4dce4103b99741de7b3ed6e5054e4f49917d7607bbc3e4b279c6b31f769be772744bb2f17a429292eca976c355c030bb8",
+          "sha256": "f438b19a9723ed3b2199ac5ae342854eff988a99c7d42811ee10e7978b562841",
+          "sha1": "8488387c2d0021f09b98cfbeba31352e4622f30f",
+          "md5": "e95d77148ff418449df2f44c095185c7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "btwr-shared-lib-0.55-sources.jar",
+          "url": "btwr-shared-lib-0.55-sources.jar",
+          "size": 63990,
+          "sha512": "b7b626123a9ca47eb35172aaecc9a3c515f654eb7d897e4dbf729e7f49ae488edb7ba61a8043a3c48110cfa3139ec95423727a6416bbc9632289ca40d8fa478a",
+          "sha256": "9d71ddbfe0c5bab4364fa2da0c4d6f14c5fb5045ddae59605fb2cfb11f973f66",
+          "sha1": "1d2b1f65086ca676517778e0b44fb0b08dbd131b",
+          "md5": "7c22a832d32e00f6ab9aa070dcf3688e"
+        }
+      ]
+    }
+  ]
+}
