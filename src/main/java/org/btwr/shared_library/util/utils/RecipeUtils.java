@@ -3,11 +3,11 @@ package org.btwr.shared_library.util.utils;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.registry.tag.TagKey;
-import org.btwr.shared_library.recipe.DisabledRecipe;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
+import org.btwr.shared_library.recipe.DisabledRecipe;
 
 /** Utility interface for shared recipe methods
  * <p> Implement this class into your recipe provider/generator class if you want to access the helper methods

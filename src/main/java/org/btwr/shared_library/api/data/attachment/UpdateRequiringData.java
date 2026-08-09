@@ -1,4 +1,4 @@
-package org.btwr.shared_library.api.data;
+package org.btwr.shared_library.api.data.attachment;
 
 import net.minecraft.entity.Entity;
 

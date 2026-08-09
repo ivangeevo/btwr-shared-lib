@@ -1,7 +1,6 @@
 package org.btwr.shared_library.mixin.item;
 
-import org.btwr.shared_library.api.sound.CraftingSoundHandler;
-import org.btwr.shared_library.util.PlaceableAsBlock;
+import org.btwr.shared_library.api.block.util.PlaceableAsBlock;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
 import net.minecraft.util.ActionResult;
@@ -21,11 +20,6 @@ public abstract class ItemMixin {
     @Inject(method = "useOnBlock", at = @At("HEAD"), cancellable = true)
     private void injectedUseOnBlock(ItemUsageContext context, CallbackInfoReturnable<ActionResult> cir) {
         cir.setReturnValue(item.placeAsBlock(context));
-    }
-
-    @Inject(method = "onCraftByPlayer", at = @At("HEAD"))
-    private void onOnCraftByPlayer(ItemStack stack, World world, PlayerEntity player, CallbackInfo ci) {
-        CraftingSoundHandler.getInstance().playCraftingSound(stack, world, player);
     }
 
 }

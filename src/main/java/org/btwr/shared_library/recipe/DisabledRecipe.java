@@ -80,8 +80,7 @@ public record DisabledRecipe(String group) implements Recipe<RecipeInput> {
                 Serializer::write, Serializer::read
         );
 
-        public Serializer() {
-        }
+        public Serializer() {}
 
         @Override
         public MapCodec<DisabledRecipe> codec() {

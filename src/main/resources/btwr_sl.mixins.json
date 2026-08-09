@@ -4,31 +4,10 @@
   "package": "org.btwr.shared_library.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "AnvilScreenHandlerMixin",
-    "CraftingScreenHandlerMixin",
-    "GrindstoneScreenHandlerMixin",
-    "LivingEntityMixin",
-    "PlayerEntityMixin",
-    "accessors.FireBlockAccessor",
     "accessors.ItemEntryAccessor",
     "accessors.LootPoolBuilderAccessor",
     "accessors.LootPoolEntryAccessor",
-    "accessors.ShapelessRecipeJsonBuilderAccessorMixin",
-    "added.BlockAddedMixin",
-    "added.FarmlandBlockAddedMixin",
-    "added.ItemAddedMixin",
-    "added.ItemStackAddedMixin",
-    "added.LivingEntityAddedMixin",
-    "added.PlayerEntityAddedMixin",
-    "block.BlockMixin",
-    "block.FireBlockMixin",
-    "entity.FallingBlockEntityMixin",
-    "item.ItemMixin",
-    "item.RepairItemRecipeMixin",
-    "item.ShearsItemMixin",
-    "recipe.CraftingResultSlotMixin",
-    "recipe.RecipeManagerMixin",
-    "world.WorldMixin"
+    "item.ItemMixin"
   ],
   "injectors": {
     "defaultRequire": 1

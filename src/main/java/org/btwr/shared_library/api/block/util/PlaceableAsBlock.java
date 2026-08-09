@@ -1,4 +1,4 @@
-package org.btwr.shared_library.util;
+package org.btwr.shared_library.api.block.util;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

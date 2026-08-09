@@ -8,7 +8,7 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
-import org.btwr.shared_library.api.util.CustomUseAction;
+import org.btwr.api.api.item.CustomUseAction;
 
 public class ProgressiveCraftingItem extends Item {
 

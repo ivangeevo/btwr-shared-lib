@@ -8,7 +8,6 @@ import org.btwr.shared_library.BTWRSLModClient;
  * Contains information on which vanilla status bar is currently being rendered
  */
 public class StatusBarRenderInfo {
-
     static boolean renderingFood, renderingMountHealth, renderingArmor, renderingAir = false;
 
     private static final StatusBarRenderInfo INSTANCE = new StatusBarRenderInfo();
@@ -50,5 +49,4 @@ public class StatusBarRenderInfo {
     public void setRenderingAir(boolean value) {
         renderingAir = value;
     }
-
 }

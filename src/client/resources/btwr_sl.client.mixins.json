@@ -5,9 +5,7 @@
   "compatibilityLevel": "JAVA_21",
   "client": [
     "AbstractClientPlayerEntityMixin",
-    "HeldItemRendererMixin",
-    "InGameHudMixin",
-    "InventoryScreenMixin"
+    "InGameHudMixin"
   ],
   "injectors": {
     "defaultRequire": 1

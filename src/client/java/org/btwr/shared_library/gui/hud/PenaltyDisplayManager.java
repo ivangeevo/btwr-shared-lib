@@ -17,7 +17,6 @@ import java.util.TreeMap;
  * Handles rendering of penalties, and their hierarchy
  */
 public class PenaltyDisplayManager {
-
     /**
      * Instance of PenaltyDisplayManager
      */
@@ -138,7 +137,7 @@ public class PenaltyDisplayManager {
     private void renderPenalties(DrawContext context, TextRenderer renderer, PlayerEntity player) {
         // Determine if draw should be diverted
         if (getDrawMode().isAnchor()) {
-            renderPenaltiesAnchored(context, renderer, player);
+            renderPenaltiesAnchored(context, renderer);
             return;
         }
 
@@ -173,7 +172,7 @@ public class PenaltyDisplayManager {
         StatusBarRenderInfo.getInstance().setRenderingFood(false);
     }
 
-    private void renderPenaltiesAnchored(DrawContext context, TextRenderer renderer, PlayerEntity player) {
+    private void renderPenaltiesAnchored(DrawContext context, TextRenderer renderer) {
         // Calculate anchor point
         PenaltyDrawMode drawMode = getDrawMode();
         int renderX = drawMode.getX(context);
@@ -318,5 +317,4 @@ public class PenaltyDisplayManager {
             return new HudRenderInfo(hungerBarY, StatusBarRenderInfo.getInstance().getRenderingFood());
         }
     }
-
 }

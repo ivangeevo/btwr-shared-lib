@@ -1,4 +1,4 @@
-package org.btwr.shared_library.api.event;
+package org.btwr.shared_library.event;
 
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerChunkEvents;
 import net.minecraft.block.Block;
