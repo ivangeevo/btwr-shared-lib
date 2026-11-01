@@ -117,6 +117,19 @@ tasks.withType(JavaCompile).configureEach {
     }
 }
 
+// Removes comments from json files in the project before compiling
+// This only works for //-type comments.
+// WARNING: It doesn't handle trailing comments, so keep them on their own line
+tasks.processResources {
+    doLast {
+        fileTree(destinationDir).matching {
+            include "fabric.mod.json", "btwr_sl.mixins.json"
+        }.each { file ->
+            file.text = file.text.replaceAll(/(?m)^\s*\/\/.*\n/, "")
+        }
+    }
+}
+
 java {
     def javaVersion = JavaVersion.toVersion(targetJavaVersion)
     if (JavaVersion.current() < javaVersion) {
